@@ -11,7 +11,7 @@
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-script: 'Brush Script MT', cursive;
     --max-width: 1200px;
-    --header-height: 80px;
+    --header-height: 60px;
 }
 
 * {
@@ -137,10 +137,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(14, 14, 14, 0.9);
+    
     z-index: 1000;
-    padding: 15px 0;
-    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    backdrop-filter: blur(30px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
